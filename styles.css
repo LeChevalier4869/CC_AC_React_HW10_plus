@@ -24,3 +24,13 @@
     border: 1px dashed blue;
     min-width: 500;
 }
+
+#ul:hover {
+    transition: all 0.3s;
+    background-color: yellow;
+}
+
+.postID:hover {
+    transition: all 0.3s;
+    background-color: red;
+}

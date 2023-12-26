@@ -34,7 +34,7 @@ fetch('https://jsonplaceholder.typicode.com/users')
         console.log('data user -> ', data)
         
         for(let el of data) {
-            let li = makeElement('li', '', '', `Name: ${el.name}, Email: ${el.email}`);
+            let li = makeElement('li', 'id', 'ul', `Name: ${el.name}, Email: ${el.email}`);
             li.addEventListener('click', ()=>postArticle(el.id));
             ul.append(li);
         }    

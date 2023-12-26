@@ -26,11 +26,11 @@
 }
 
 #ul:hover {
-    transition: all 0.3s;
+    transition: all 0.25s;
     background-color: yellow;
 }
 
 .postID:hover {
-    transition: all 0.3s;
+    transition: all 0.25s;
     background-color: red;
 }
